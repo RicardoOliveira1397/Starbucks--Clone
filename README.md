@@ -1,4 +1,4 @@
-# Starbucks
+# Starbucks Clone
 
 ## Project developed on B7Web course HTML | CSS
 
