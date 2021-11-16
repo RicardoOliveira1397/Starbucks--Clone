@@ -23,7 +23,7 @@ h1{
     margin: 0;
     margin-bottom: 30px;
 }
-h2 {
+h2, footer {
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
     font-size: 35px;
@@ -223,4 +223,20 @@ button:focus{
 .area4--img1{
     background-image:url(../Images/bg3.jpg);
     background-position: left;
+}
+
+.area5 {
+    background-image: url(../Images/bg4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+
+footer{
+    color: #117050;
+    padding: 80px;
+    text-align: center;
+    font-size: 16px;
+    background-image: linear-gradient(to top, #D4CBC2, #fff);
+    margin: 0;
 }
