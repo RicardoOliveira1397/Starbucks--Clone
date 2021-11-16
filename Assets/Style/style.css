@@ -7,7 +7,7 @@ body{
 }
 
 .container{
-    max-width: 1720px;
+    max-width: 1140px;
     margin: auto;
 }
 .bar{
@@ -181,4 +181,28 @@ button:focus{
     background-image:url(../Images/f3.jpg);
     background-size: cover;
     background-position: center;
+}
+
+.area3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.area3--content{
+    padding: 200px 80px;
+    background-image: url(../Images/bg2.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+.area3--text{
+    text-align: justify;
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+.area3--img1{
+    background-image:url(../Images/f5.jpg);
+    background-size: cover;
+    background-position: center;
+
 }
